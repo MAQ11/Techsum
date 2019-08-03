@@ -9,7 +9,7 @@ public class TestConstructor2 {
 	}
 	
 	TestConstructor2 (int a){
-		this(10,20);
+		this(30,20);
 		System.out.println("We are in One Paramitrised Constructor");
 		System.out.println("Value of A is---->"+a);
 
@@ -24,7 +24,7 @@ public class TestConstructor2 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TestConstructor2 t;
+		//TestConstructor2 t;
 		//t = new TestMethod8(); or
 		new TestConstructor2();
 
